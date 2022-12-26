@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@500&display=swap");
+ .navbar {
+	 height: 60px;
+	 background: #00577c;
+	 color: white;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 0 2rem;
+	 font-size: 1.2rem;
+	 position: sticky;
+	 top: 0;
+	 z-index: 100;
+}
+ .navbar .nav-logo {
+	 text-decoration: none;
+	 display: flex;
+	 align-items: center;
+	 height: 100%;
+	 color: #fff;
+	 text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+	 font-family: "Aldrich", sans-serif;
+}
+ .navbar .nav-logo img {
+	 width: 40px;
+	 height: 80%;
+}
+ .navbar .nav-icon {
+	 display: none;
+	 font-size: 2rem;
+	 cursor: pointer;
+}
+ .navbar .nav-links {
+	 display: grid;
+	 grid-template-columns: repeat(7, auto);
+	 grid-gap: 20px;
+	 list-style: none;
+}
+.navbar .nav-links .btns{
+	display: flex;
+	justify-content: center;
+	gap:12px;
+}
+ .navbar .nav-links .nav-item .nav-link {
+	 text-decoration: none;
+	 color: #d5d5d5;
+	 transition: 0.3s all;
+	 font-family: "Aldrich", sans-serif;
+}
+ .navbar .nav-links .nav-item .nav-link:hover {
+	 color: #fff;
+}
+ .navbar .nav-links .nav-item a.active {
+	 color: #21d7ef;
+}
+ @media only screen and (max-width: 800px) {
+	 .navbar .nav-icon {
+		 display: flex;
+	}
+	 .navbar .nav-links {
+		 display: flex;
+		 flex-direction: column;
+		 position: absolute;
+		 text-align: center;
+		 width: 70%;
+		 height: 100vh;
+		 top: 60px;
+		 left: -100%;
+		 transition: 0.5s all;
+	}
+	 .navbar .nav-links.active {
+		 background: #00577c;
+		 left: 0;
+	}
+	 .navbar .nav-links .nav-item {
+		 padding: 10px 0;
+	}
+}
+ 

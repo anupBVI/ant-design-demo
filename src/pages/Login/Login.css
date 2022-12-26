@@ -1,0 +1,26 @@
+.login-container {
+    width: 98vw;
+    margin: 10px auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .login-container .row-wrapper {
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .login-container .row-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 14px 14px 39px #e3e3e3, -14px -14px 39px #ffffff;
+  }
+  
+  .ant-form-item {
+      margin-bottom: 12px!important;
+  }

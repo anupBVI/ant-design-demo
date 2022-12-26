@@ -1,0 +1,21 @@
+.contact-container {
+    width: 98vw;
+    margin: 10px auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact-container .row-wrapper {
+    margin: 12px;
+  }
+  .contact-container .row-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 14px 14px 39px #e3e3e3, -14px -14px 39px #ffffff;
+  }
+

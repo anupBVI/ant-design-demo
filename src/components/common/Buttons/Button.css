@@ -1,0 +1,40 @@
+.primary-btn {
+  background: rgb(52, 145, 244);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  transition: 0.1s ease all;
+}
+.primary-btn:hover {
+  background: rgb(38, 6, 163);
+  color: rgb(255, 255, 255) !important;
+  transform: scale(1.1);
+}
+
+.secondary-btn {
+  background: rgb(120, 120, 120);
+  border-radius: 0px;
+  border: none;
+  color: white;
+  transition: 0.1s ease all;
+  text-decoration: none;
+}
+
+.secondary-btn:hover {
+  background: rgb(163, 163, 163);
+  color: rgb(255, 255, 255) !important;
+  transform: scale(1.1);
+}
+
+.nav-btn {
+  background: rgb(54, 159, 156);
+  color: white;
+  border-radius: 0px;
+  border: none;
+  transition: 0.1s ease all;
+}
+.nav-btn:hover {
+  background: rgb(70, 191, 187);
+  color: rgb(255, 255, 255) !important;
+  transform: scale(1.04);
+}

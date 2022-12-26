@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Worked on several component integration of ant design library. */
+
+/* Refactored the code and implement component composition wherever possible. */
+
+.draw {
+}
+.ant-drawer-content-wrapper {
+  background: #000;
+  height: 200px;
+  padding: 12px;
+}
+.ant-drawer-content {
+  background: rgb(41, 153, 151) !important;
+}
+
+.ant-modal-wrap {
+  /* width: 100vw;
+  height: 100%;
+  margin: 0!important;
+  padding: 0!important; */
+}
+
+.ant-modal {
+  /* margin-top: -100px;
+  margin-top: -100px;
+  width: 100vw !important;
+  height: 100vh !important; */
+}
+.ant-modal-content {
+  /* background: rgb(232, 205, 205) !important;
+  width: 98vw !important;
+  height: 90vh !important;
+  border-radius: 0px!important; */
+}

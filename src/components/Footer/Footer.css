@@ -1,0 +1,38 @@
+footer .footer-container {
+  padding: 12px;
+  margin: 12px auto;
+  background: rgb(24, 58, 87);
+}
+footer .footer-container .content {
+  display: flex;
+  flex-direction: column;
+  color: rgb(206, 206, 206);
+  /* background: rgb(26, 79, 139); */
+  padding: 12px;
+  gap:.5rem;
+}
+
+footer .footer-container .content .news {
+  /* background: #000; */
+  margin-top: 1rem;
+}
+footer .footer-container .content .news input {
+  border: none;
+  outline: none;
+  width: 60%;
+  padding: 12px 3px;
+}
+footer .footer-container .content .news button {
+  border: none;
+  color: white;
+  outline: none;
+  background: rgb(6, 123, 166);
+  width: 25%;
+  padding: 12px 3px;
+  transition: .2s ease all;
+  cursor: pointer;
+}
+footer .footer-container .content .news button:hover {
+  letter-spacing: 0.1rem;
+  background: rgb(9, 153, 205);
+}

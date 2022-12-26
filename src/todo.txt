@@ -1,0 +1,6 @@
+date : 12/12/2022
+
+1) Read the docs for antd.
+2) Make a sample React app using antd components.
+3) 
+
